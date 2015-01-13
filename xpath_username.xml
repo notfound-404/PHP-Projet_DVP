@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<users>
+	<user type="administrator">
+		<username>admin_xml</username>
+		<password>123456</password>
+		<description>Compte admin</description>
+		<email>admin@noob.dev</email>
+	</user>
+	<user type="member">
+		<username>guest_xml</username>
+		<password>password_9u3st_xml</password>
+		<email>guest@noob.dev</email>
+		<description>Compte d'un membre guest</description>
+	</user>
+</users>

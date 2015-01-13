@@ -1,0 +1,51 @@
+ul#menu_horizontal { 
+	width			: 200px; 
+	height		 	: 400px;
+	margin-left		: auto;
+	margin-right		: auto;
+	padding 			: 0;
+	background-color 	: #f4f9fd;
+	border 			: 1px dashed black;
+	list-style-type 	: none; 
+}
+ 
+ul#menu_horizontal li {
+	padding 			: 0 0.5em;  
+	line-height		: 30px;
+}
+ 
+ul#menu_horizontal li.bouton_gauche {
+#	float 			: left;
+#	border-right		: 1px dashed black; 
+}
+ 
+ul#menu_horizontal li.bouton_droite {
+#	float 			: right;
+#	border-left 		: 1px dashed black;
+}
+ 
+ul#menu_horizontal a {
+	color 			: black;
+	text-decoration 	: none;
+	padding 			: 0 0.5em; 
+	font 			: 0.8em "Terminus";
+}
+ 
+ul#menu_horizontal a:hover {
+	text-decoration	: underline;
+}
+ 
+ul#menu_horizontal a img { 
+	border 			: none;
+	padding 			: 0 0.3em;
+}
+
+table{
+	border-collapse	: collapse;
+	background-color 	: #f4f9fd;
+}
+
+td, th{
+	font 			: 0.8em "Terminus";
+	border			: 1px dashed black;
+}
